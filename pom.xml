@@ -9,6 +9,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>SimpleFactory</module>
+        <module>FactoryMethod</module>
     </modules>
     <packaging>pom</packaging>
     <build>
