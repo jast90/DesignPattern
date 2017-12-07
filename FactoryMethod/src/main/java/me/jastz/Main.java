@@ -1,7 +1,5 @@
 package me.jastz;
 
-import me.jastz.pay.PayFactory;
-import me.jastz.pay.alipay.AliPayFactory;
 import me.jastz.service.PayService;
 import me.jastz.service.PayType;
 

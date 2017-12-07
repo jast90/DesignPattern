@@ -10,6 +10,7 @@
     <modules>
         <module>SimpleFactory</module>
         <module>FactoryMethod</module>
+        <module>AbstractFactory</module>
     </modules>
     <packaging>pom</packaging>
     <build>
