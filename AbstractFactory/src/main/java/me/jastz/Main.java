@@ -1,10 +1,20 @@
 package me.jastz;
 
+import me.jastz.electrical.factory.EFactory;
+import me.jastz.electrical.factory.impl.HaierEFactory;
+import me.jastz.electrical.factory.impl.TclEFactory;
+
 /**
- * Hello world!
+ * @author zhiwen
  */
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        EFactory eFactory = new HaierEFactory();
+        eFactory.produceTelevision().play();
+        eFactory.produceAirConditioner().changeTemperature();
+
+        eFactory = new TclEFactory();
+        eFactory.produceTelevision().play();
+        eFactory.produceAirConditioner().changeTemperature();
     }
 }
